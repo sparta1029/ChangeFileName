@@ -14,7 +14,6 @@ import javax.swing.JScrollPane;
 
 import java.io.File;
 import java.util.Enumeration;
-import java.util.Locale;
 import java.util.Vector;
 
 import javax.swing.JFileChooser;
@@ -27,11 +26,12 @@ import javax.swing.UIManager;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 
-import javax.swing.JRadioButton;
-import javax.swing.JComboBox;
-
 public class ChangeFileNameGUI extends JFrame implements ActionListener {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 2512820068895880128L;
 	private JPanel contentPane;
 	private JTable tableCurrentFileName, tableNewFileName;
 	private JTextField textNewFileName;
